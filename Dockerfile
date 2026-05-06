@@ -7,6 +7,7 @@ WORKDIR /app
 
 # Install dependencies
 COPY backend/requirements.txt .
+RUN pip install --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy backend code
