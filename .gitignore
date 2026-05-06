@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Whisper model cache
+~/.cache/whisper/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp audio files
+*.webm
+*.wav
+*.mp4
+
+# IDE
+.vscode/
+.idea/
