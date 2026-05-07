@@ -21,8 +21,8 @@ app.add_middleware(
 )
 
 # Load Whisper model once at startup
-print("[*] Loading Whisper model (base)...")
-model = whisper.load_model("base")
+print("[*] Loading Whisper model (tiny)...")
+model = whisper.load_model("tiny")
 print("[OK] Whisper model loaded successfully!")
 
 # Keywords for scoring
