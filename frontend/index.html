@@ -42,7 +42,7 @@
             <span>View Dashboard</span>
           </button>
         </div>
-        <p class="home-footer">Powered by OpenAI Whisper &bull; FastAPI</p>
+        <p class="home-footer">Powered by Web Speech API &bull; AI Scoring Engine</p>
       </div>
     </section>
 
@@ -100,6 +100,11 @@
           <button id="btn-stop" class="btn btn-stop hidden" onclick="stopRecording()">
             <span class="stop-square"></span><span>Stop &amp; Submit</span>
           </button>
+        </div>
+        <!-- Live transcript preview -->
+        <div id="live-transcript-wrapper" class="live-transcript-wrapper hidden">
+          <div class="live-transcript-label">🎙️ Live Transcript</div>
+          <div id="live-transcript" class="live-transcript-text"></div>
         </div>
         <p class="interview-tip">💡 Speak clearly into your microphone. You can answer in your selected language.</p>
       </div>
